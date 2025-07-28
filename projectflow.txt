@@ -165,3 +165,7 @@ echo $env:AWS_ACCESS_KEY_ID
 echo $env:AWS_SECRET_ACCESS_KEY
 
 input : 1 25 1 15 0 28711 152 239 1 0 1
+output : 
+
+ecr name : vehicleproj
+ecr uri : 061039772452.dkr.ecr.us-east-1.amazonaws.com/vehicleproj 
