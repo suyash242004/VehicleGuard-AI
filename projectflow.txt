@@ -141,3 +141,25 @@
         > type: Custom TCP > Port range: 5080 > 0.0.0.0/0 > Save rules
 33. Now paste the public ip address on the address bar +:5080 and your app will be launched.
 34. You can also do model training on /training route
+
+suyashmatade007
+OdIzHnqtWOVeUI6S
+mongodb+srv://suyashmatade007:<db_password>@cluster0.hitnitx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+$env:MONGODB_URL = "mongodb+srv://<username>:<password>"
+echo $env:MONGODB_URL
+
+$env:MONGODB_URL = "mongodb+srv://suyashmatade007:OdIzHnqtWOVeUI6S@cluster0.hitnitx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+# WORKFLOW 
+# constant -> config_entity -> artifact_entity -> component -> pipeline -> app.py/demo.py
+
+IAM USER Access key and Password : 
+AKIAQ4NSBAMSDBC7KXGI
+Fo0smh7qn1YAnRoAx6e483tKem4ig6ASBNrhqOLi
+
+$env:AWS_ACCESS_KEY_ID="AKIAQ4NSBAMSDBC7KXGI"
+$env:AWS_SECRET_ACCESS_KEY="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"
+
+echo $env:AWS_ACCESS_KEY_ID
+echo $env:AWS_SECRET_ACCESS_KEY
